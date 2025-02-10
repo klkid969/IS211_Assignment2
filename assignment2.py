@@ -1,3 +1,9 @@
+import logging
+
+# Set up logging to a file named 'errors.log'
+logging.basicConfig(filename='errors.log', level=logging.ERROR, format='%(message)s')
+logger = logging.getLogger('assignment2')
+
 import csv
 from datetime import datetime
 import logging
